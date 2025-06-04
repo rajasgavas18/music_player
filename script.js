@@ -1,11 +1,11 @@
 (() => {
     const songs = [
       
-      { title: "Ae Mere Watan Ke", artist: "Lata Mangeshkar", src: "/img/Ae Mere Watan Ke Logon - PagalWorld.mp3", cover: "/img/Ae Mere Watan Ke Logon.jpg", duration: "4:53" },
-      { title: "Sairat Zaala Ji", artist: "Ajay Gogavale", src: "/img/Sairat Zaala Ji-128kbps.mp3", cover: "/img/sairat.jpg", duration: "6:09" },
-      { title: "Chand Tu Nabhatla", artist: "Swapnil Bandodkar", src: "/img/Chand Tu Nabhatla-128kbps.mp3", cover: "/img/sanduk.jpg", duration: "4:37" },
-      { title: "Teri Ore", artist: "Rahat Fateh Ali Khan", src: "/img/Teri Ore From Singh Is Kinng-128kbps.mp3", cover: "/img/teri ore.jpg", duration: "5:38" },
-      { title: "Shaky", artist: "Sanju Rathod,Vaishali Samant", src: "/img/Shaky-128kbps.mp3", cover: "/img/shaky.jpg", duration: "2:55" },
+      { title: "Ae Mere Watan Ke", artist: "Lata Mangeshkar", src: "Ae Mere Watan Ke Logon - PagalWorld.mp3", cover: "Ae Mere Watan Ke Logon.jpg", duration: "4:53" },
+      { title: "Sairat Zaala Ji", artist: "Ajay Gogavale", src: "Sairat Zaala Ji-128kbps.mp3", cover: "sairat.jpg", duration: "6:09" },
+      { title: "Chand Tu Nabhatla", artist: "Swapnil Bandodkar", src: "Chand Tu Nabhatla-128kbps.mp3", cover: "sanduk.jpg", duration: "4:37" },
+      { title: "Teri Ore", artist: "Rahat Fateh Ali Khan", src: "Teri Ore From Singh Is Kinng-128kbps.mp3", cover: "teri ore.jpg", duration: "5:38" },
+      { title: "Shaky", artist: "Sanju Rathod,Vaishali Samant", src: "Shaky-128kbps.mp3", cover: "shaky.jpg", duration: "2:55" },
     ];
 
     const titleEl = document.getElementById('title');
