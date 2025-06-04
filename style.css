@@ -16,8 +16,8 @@
   }
   .brand {
     position: absolute;
-    top: 30px;
-    left: 35px;
+    top: 15px;
+    left: 15px;
     display: flex;
     align-items: center;
     gap: 10px;
