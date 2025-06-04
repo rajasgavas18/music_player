@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Modern Music Player with Side Cards</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="brand">
+    <img src="/img/music.png" alt="Harmonia Logo" />
+    <span>Harmonia</span>
+  </div>
+  <div class="player-container">
+    <div class="side-card" id="prev-card" tabindex="0" aria-label="Previous song" role="button">
+      <div class="cover" id="prev-cover" aria-label="Previous song cover"></div>
+      <div class="title" id="prev-title" title=""></div>
+    </div>
+
+    <div class="player" role="region" aria-label="Music player">
+      <h2 id="title"></h2>
+      <div class="artist" id="artist"></div>
+      <div class="cover" id="cover" aria-label="Album cover"></div>
+
+      <div class="controls" role="group" aria-label="Playback controls">
+        <button id="prev" title="Previous">&#9664;&#9664;</button>
+        <button id="play" title="Play/Pause">&#9654;</button>
+        <button id="next" title="Next">&#9654;&#9654;</button>
+      </div>
+
+      <div class="progress-container" id="progress-container" aria-label="Audio progress bar" role="slider" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="progress" id="progress"></div>
+      </div>
+
+      <div class="time">
+        <span id="current-time">0:00</span>
+        <span id="duration">0:00</span>
+      </div>
+
+      <div class="volume-container" aria-label="Volume control">
+        <span class="volume-icon" id="volume-icon">&#128266;</span>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="1" aria-label="Volume slider" />
+      </div>
+
+      <div class="playlist" role="list" aria-label="Playlist" id="playlist"></div>
+    </div>
+
+    <div class="side-card" id="next-card" tabindex="0" aria-label="Next song" role="button">
+      <div class="cover" id="next-cover" aria-label="Next song cover"></div>
+      <div class="title" id="next-title" title=""></div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
